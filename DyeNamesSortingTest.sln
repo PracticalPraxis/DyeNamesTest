@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeNameTest", "DyeNameTest\DyeNameTest.csproj", "{0D92A4EE-E489-45B7-988E-946BADC322B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeNameTest_UnitTests", "DyeNameTest_UnitTests\DyeNameTest_UnitTests.csproj", "{D0671C89-6617-4024-BAC8-9787B344B9E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D92A4EE-E489-45B7-988E-946BADC322B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D92A4EE-E489-45B7-988E-946BADC322B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D92A4EE-E489-45B7-988E-946BADC322B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D92A4EE-E489-45B7-988E-946BADC322B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0671C89-6617-4024-BAC8-9787B344B9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0671C89-6617-4024-BAC8-9787B344B9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0671C89-6617-4024-BAC8-9787B344B9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0671C89-6617-4024-BAC8-9787B344B9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18E15CD5-1DD7-4A03-B3F1-1026C802C5C4}
+	EndGlobalSection
+EndGlobal
