@@ -22,6 +22,7 @@ namespace DyeNamesTest
             List<FullName> unsortedNames = NameImporter.importNames(filename);
             List<FullName> sortedNames = new List<FullName>();
 
+            // Comment added to test Travis build
             if (!Sorter.CheckIsAlphanumericOrAllowedChars(unsortedNames)) {
                 Console.Error.WriteLine("File contains non-alphanumeric characters - please correct the data and re-submit.");
                 return;
