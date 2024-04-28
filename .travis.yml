@@ -7,7 +7,7 @@ install:
 
 script:
 - dotnet build
-- dotnet test DyeNamesTest_UnitTests/DyeNamesTest_UnitTests.csproj
+- dotnet test
 
 notificatons:
     email: false
