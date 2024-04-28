@@ -1,0 +1,13 @@
+language: csharp
+solution: DyeNamesTest.sln
+dotnet: 6.0.401
+
+install:
+- dotnet restore
+
+script:
+- dotnet build
+- dotnet test DyeNamesTest_UnitTests/DyeNamesTest.csproj
+
+notificatons:
+    email: false
