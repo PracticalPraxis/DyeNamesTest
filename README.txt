@@ -6,6 +6,9 @@ Set the command line arguments in the Project Properties to be 'name-sorter ./un
 
 Set the working directory so that your unsorted names file is in the local working directory
 
+(I achieved this through modifying the Project Propteries of DyeNamesTest in the Debug section)
+
+
 Run the program in Visual Studio (or through a built version)
 
 Sorted names will be output to a text file called 'sorted-names-list' in your working directory
